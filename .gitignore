@@ -1,0 +1,40 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.pub-cache/
+.packages
+pubspec.lock
+
+# Build related
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.framework
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode related
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# Android related
+.gradle/
+/android/.gradle
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+
+# Firebase config files
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Misc
+*.iml
+*.lock
+*.log
+.vscode/
+.idea/
+.DS_Store
